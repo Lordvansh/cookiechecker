@@ -48,8 +48,8 @@ OWNER_ID = 6177293322
 DEFAULT_PREMIUM_PROXY = "ps-pro.porterproxies.com:31112:PP_9BX6SW23L0:ylbz8043_country-us_session-Tp41ryDQrUzZ"
 PREMIUM_DATA_FILE = "premium_data.json"
 
-MAX_WORKERS_PER_USER = 20
-BATCH_SIZE = 20
+MAX_WORKERS_PER_USER = 16
+BATCH_SIZE = 8
 dot_length = 5
 MAX_LIVE_HITS = 10
 
