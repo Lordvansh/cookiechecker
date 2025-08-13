@@ -1,0 +1,17 @@
+services:
+  - type: worker
+    name: brandnew-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python Brandnew.py
+    envVars:
+      - key: USE_WEBHOOK
+        value: "1"  # Change to "1" if you want to use webhooks
+      - key: TOKEN
+        value: "8003309975:AAHUgRNSVF1ExKqdetk_26T_b9JWp3w6LkE"
+      - key: WEBHOOK_URL
+        value: "https://brandnew-bot.onrender.com" # Only if using webhooks
+      - key: PORT
+        value: "10000"
+        
