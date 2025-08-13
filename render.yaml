@@ -9,7 +9,7 @@ services:
       - key: USE_WEBHOOK
         value: "0"  # Change to "1" if you want to use webhooks
       - key: TOKEN
-        value: "8003309975:AAHUgRNSVF1ExKqdetk_26T_b9JWp3w6LkE"
+        value: "8180753707:AAE3ByLRLuT7VRrt3UL8TiF0DHWi0D7u5a8"
       - key: WEBHOOK_URL
         value: "https://brandnew-bot.onrender.com" # Only if using webhooks
       - key: PORT
